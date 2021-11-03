@@ -1,0 +1,40 @@
+﻿  Comunicator.cpp
+D:\Problems\TCP\TCP\Comunicator.cpp(63,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\xmemory(681,47): error C2280: 'std::thread::thread(const std::thread &)': attempting to reference a deleted function
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\thread(110): message : see declaration of 'std::thread::thread'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\thread(110,5): message : 'std::thread::thread(const std::thread &)': function was explicitly deleted
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\vector(592): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\vector(597): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\vector(610): message : see reference to function template instantiation 'void std::vector<std::thread,std::allocator<std::thread>>::_Emplace_back_with_unused_capacity<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\vector(627): message : see reference to function template instantiation 'void std::vector<std::thread,std::allocator<std::thread>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30704\include\vector(626): message : while compiling class template member function 'void std::vector<std::thread,std::allocator<std::thread>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=std::thread
+          ]
+D:\Problems\TCP\TCP\Comunicator.cpp(98): message : see reference to function template instantiation 'void std::vector<std::thread,std::allocator<std::thread>>::push_back(const _Ty &)' being compiled
+          with
+          [
+              _Ty=std::thread
+          ]
+D:\Problems\TCP\TCP\Comunicator.h(29): message : see reference to class template instantiation 'std::vector<std::thread,std::allocator<std::thread>>' being compiled
